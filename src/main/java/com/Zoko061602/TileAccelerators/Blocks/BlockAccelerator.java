@@ -31,7 +31,7 @@ public class BlockAccelerator extends Block implements ITileEntityProvider {
 	
 	@Override
 	public int damageDropped(int meta) {
-		return super.damageDropped(meta);
+		return meta;
 	}
 	
 	@Override
